@@ -17,6 +17,7 @@ license {
 
 cc_binary {
     name: "newfs_msdos",
+    recovery_available: true,
     c_std: "gnu11",
     cflags: [
         "-Wall",
